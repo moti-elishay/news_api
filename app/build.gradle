@@ -32,18 +32,5 @@ dependencies {
 
     implementation 'com.squareup.retrofit2:retrofit:2.3.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
-
-    implementation 'com.github.d-max:spots-dialog:0.7@aar'
-
     implementation 'com.google.code.gson:gson:2.8.2'
-
-    //Install new imageView Library
-    implementation 'de.hdodenhof:circleimageview:2.1.0'
-
-    //becuse each source website will have each icon, we need get icon and using picasso to load icon to image view
-    implementation 'com.squareup.picasso:picasso:2.5.2'
-
-    implementation 'io.paperdb:paperdb:2.5'
-
-
 }

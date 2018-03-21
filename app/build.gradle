@@ -45,5 +45,10 @@ dependencies {
 
     implementation 'io.paperdb:paperdb:2.5'
 
+    //This is for design listnews layout
+    //The first thing is adding Diagonal Layout and Kenburns Animated Library
+    implementation 'com.github.florent37:diagonallayout:1.0.7'
+    implementation 'com.flaviofaria:kenburnsview:1.0.7'
+
 
 }

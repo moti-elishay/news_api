@@ -50,6 +50,12 @@ public abstract class BaseActivity<V extends BaseContract.View, P extends BaseCo
         mPresenter.onCreate((V) this);
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mPresenter.onDestroy();
+    }
+
     /**
      * {@link BaseContract.View} implementation
      */
